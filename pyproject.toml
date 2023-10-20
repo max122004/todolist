@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "todolist"
+version = "0.1.0"
+description = ""
+authors = ["Maks Boldirev <boldirevmax10@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+psycopg2-binary = "^2.9.6"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+python-social-auth = "^0.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
